@@ -7,14 +7,14 @@ namespace TodoApi
 	{
 		protected static void Main(string[] args)
 		{
-			var port = 8080;
-			var url = $"http://*:{port}";
-			using (WebApp.Start<Startup>("http://*:8080/"))
-			{
-				Console.WriteLine($"Web Server is running at {url}.");
-				Console.WriteLine("Press any key to quit.");
-				Console.ReadLine();
-			}
-		}
+            var port = 8080;
+            var url = $"http://*:{port}";
+            using (WebApp.Start<Startup>("http://*:8080/"))
+            {
+                Console.WriteLine($"Web Server is running at {url}.");
+                Console.WriteLine("Press any key to quit.");
+                Console.ReadLine();
+            }
+        }
 	}
 }
