@@ -66,6 +66,7 @@ namespace TodoApi.Controllers
 			return Ok();
 		}
 
+        //commented to avoid put conflict
         //[HttpPut]
         //[Route("{id}")]
         //public IHttpActionResult Update([FromBody] TodoItem item, string id)
